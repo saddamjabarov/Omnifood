@@ -1,0 +1,21 @@
+.featured {
+  padding: 48px 32px 0 0;
+  &__title {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.75px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #888;
+  }
+  &__logos {
+    display: flex;
+    justify-content: space-between;
+    img {
+      height: 35px;
+      filter: brightness(0);
+      opacity: 50%;
+    }
+  }
+}

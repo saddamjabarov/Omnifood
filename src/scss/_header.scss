@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 96px;
+  padding: 0 48px;
+  background-color: #fdf2e9;
+  &__logo {
+    height: 22px;
+  }
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+  }
+  &__link {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333;
+    &:hover {
+      color: coral;
+    }
+  }
+}
